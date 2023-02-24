@@ -4,6 +4,15 @@ spl_autoload_register(function ($class_name) {
     require_once $class_name.'.php';
 });
 
+
+// Pays 
+
+$France = new Pays ("France");
+$Espagne = new Pays ("Espagne");
+$Angleterre = new Pays ("Angleterre");
+$Italie = new Pays ("Italie");
+
+
 // Les Equipes 
 
 $OM = new Equipe ( "OM", $France, 1899);
@@ -13,12 +22,7 @@ $BARCA= new Equipe ("Barcelone", $Espagne, 1899);
 $JUVE = new Equipe ("Juventus", $Italie, 1897);
 
 
-// Pays 
 
-$France = new Pays ("France");
-$Espagne = new Pays ("Espagne");
-$Angleterre = new Pays ("Angleterre");
-$Italie = new Pays ("Italie");
 
 // Joueurs 
 
