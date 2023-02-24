@@ -1,6 +1,6 @@
 <?php
 
-class carriere 
+class Carriere 
 {
 private Joueur $joueur;
 private Equipe $equipe;
@@ -35,7 +35,7 @@ public function getanneeDebut ()
 public function __toString()
 
 {
-    return "$this -> anneeDebut";
+    return  "($this->anneeDebut)";
 }
 
 

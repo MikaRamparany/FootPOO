@@ -112,7 +112,7 @@ class Joueur
              flex-direction: column;
               justify-content: space-around;
                box-shadow:rgba(100, 100, 111, 0.2)0px 7px 29px 0px'> <span style='text-align:center;
-                font-size:18px'><b>$this <br> ".$this-> pays. " - " .$this->ageJoueur(). " ans" ." </b></span><br><span style='font-size:14px;
+                font-size:28px'><b>$this <br> ".$this-> pays. " - " .$this->ageJoueur(). " ans" ." </b></span><br><span style='font-size:14px;
                  text-align:center'>";
 
          

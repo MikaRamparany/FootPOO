@@ -55,26 +55,27 @@ $FabioREAL = new Carriere ( $FABIO, $REAL, 2006);
 // Affichages Carte Pays: 
 // var_dump($Espagne);
 
-echo "<section style='display:flex; flex-wrap: wrap; gap:100px; justify-content: center'>";
+echo "<section style='display:flex; flex-wrap: wrap; gap:100px; justify-content: space-around'>";
 $Espagne -> infoPays();
 $France -> infoPays();
 $Italie -> infoPays();
-echo "</section> <br> <br> <br> <br> <br> <br> <br> <br";
+echo "</section> <br> <br> <br> <br> <br> <br> <br> <br>"; //! <- permet de regler la distance enre deux cartes 
 
 
 //affichages carte Equipes: 
-echo "<section style='display:flex; flex-wrap: wrap; gap:100px; justify-content: center'>";
+echo "<section style='display:flex; flex-wrap: wrap; gap:100px; justify-content: space-around'>";
 
-// $OM -> infoEquipe();
-
-echo " </section> <br> <br> <br> <br> <br> <br";
+$MANU -> infoEquipe();
+$REAL -> infoEquipe();
+$JUVE -> infoEquipe();
+echo " </section> <br> <br> <br> <br> <br> <br> <br> <br>";
 
 
 //affichages carte Joueur : 
 
-echo "<section style='display:flex; flex-wrap: wrap; gap:100px; justify-content: center'>";
+echo "<section style='display:flex; flex-wrap: wrap; gap:100px; justify-content: space-around'>";
 $POGBA -> afficherInfosJoueur ();
 $BECKHAM -> afficherInfosJoueur ();
 $PIQUE -> afficherInfosJoueur ();
 
-echo " </section> <br> <br> <br> <br> <br> <br";
+echo " </section> <br> <br> <br> <br> <br> <br> <br> <br>";
