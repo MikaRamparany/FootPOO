@@ -29,7 +29,7 @@ class pays
 
     public function infoPays ()
     {
-        echo "<div style='color:white; background-color:#c06464; margin:0; width:250px; height:250px; border-radius:5px; display:flex; flex-direction: column; justify-content: space-around; box-shadow:rgba(100, 100, 111, 0.2)0px 7px 29px 0px'> <span style='text-align:center; font-size:18px'><b>$this</b></span><br><span style='font-size:14px; text-align:center'>";
+        echo "<div style='color:white; background-color:#c06464; margin:0; width:350px; height:360px; border-radius:10px; display:flex; flex-direction: column; justify-content: space-around; box-shadow:rgba(100, 100, 111, 0.2)0px 7px 29px 0px'> <span style='text-align:center; font-size:18px'><b>$this</b></span><br><span style='font-size:14px; text-align:center'>";
         foreach($this->equipes as $equipe)
         {
             echo "<span style='font-size:20px'><br> $equipe <br></span>";
