@@ -56,9 +56,9 @@ $FabioREAL = new Carriere ( $FABIO, $REAL, 2006);
 // var_dump($Espagne);
 
 echo "<section style='display:flex; flex-wrap: wrap; gap:100px; justify-content: center'>";
-// $Espagne -> infoPays();
-// $France -> infoPays();
-// $Italie -> infoPays();
+$Espagne -> infoPays();
+$France -> infoPays();
+$Italie -> infoPays();
 echo "</section> <br> <br> <br> <br> <br> <br> <br> <br";
 
 
@@ -74,5 +74,7 @@ echo " </section> <br> <br> <br> <br> <br> <br";
 
 echo "<section style='display:flex; flex-wrap: wrap; gap:100px; justify-content: center'>";
 $POGBA -> afficherInfosJoueur ();
+$BECKHAM -> afficherInfosJoueur ();
+$PIQUE -> afficherInfosJoueur ();
 
 echo " </section> <br> <br> <br> <br> <br> <br";
