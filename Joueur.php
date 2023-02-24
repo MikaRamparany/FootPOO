@@ -103,7 +103,7 @@ class Joueur
         //  <br>
         //  </strong><span style='font-size:20px'>".$this->pays." - ".$this->ageJoueur()." ans <br><br></span></div><div style='display:flex;
         //  flex-direction:column'>"; //! attention aux syntaxes quand on rjoute du csshtml dans le code php... 
-        echo "<div style='color:white; 
+        echo "<div style='color:#45523e; 
         background-color:#74c55c;
          margin:0; width:350px;
           height:360px;

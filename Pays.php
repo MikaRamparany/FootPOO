@@ -29,7 +29,7 @@ class Pays
 
     public function infoPays ()
     {
-        echo "<div style='color:white; 
+        echo "<div style='color:#0a5d7b; 
         background-color:#c06464;
          margin:0; width:350px;
           height:360px;
