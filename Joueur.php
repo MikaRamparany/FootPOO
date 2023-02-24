@@ -7,7 +7,7 @@ class Joueur
     private $anneeNaissance;
     private Pays $pays; 
     private array $carrieres;
-    private Equipe $equipe;
+
 
     public function __construct(string $nom, string $prenom, $anneeNaissance, Pays $pays)
 
@@ -61,15 +61,15 @@ class Joueur
         return $this ->pays= $pays;
     }
 
-    public function getequipe()
-    {
-        return $this ->equipe;
-    }
+    // public function getequipe()
+    // {
+    //     return $this ->equipe;
+    // }
 
-    public function setequipe(Equipe $equipe)
-    {
-        return $this ->equipe= $equipe;
-    }
+    // public function setequipe(Equipe $equipe)
+    // {
+    //     return $this ->equipe= $equipe;
+    // }
 
 
 // FONCTIONS 
@@ -89,12 +89,37 @@ class Joueur
     public function afficherInfosJoueur ()
     {
     
-        echo "<div style='background-color:#74c55c
-        ;color:white;width:360px;height:360px;padding:40px;display:flex;flex-direction:column;justify-content:space-between'><div style='display:flex;flex-direction:column'><strong style='font-size:30px'>".$this."</strong><span style='font-size:20px'>".$this->pays." - ".$this->ageJoueur()." ans</span></div><div style='display:flex;flex-direction:column'>";
+        // echo "<div style='background-color:#74c55c;
+        // color:white;
+        // width:350px;
+        // margin:0;
+        // height:360px;padding:40px; margin:0;
+        // border-radius:10px;
+        //  display:flex; 
+        //  flex-direction:column; 
+        //  justify-content:space-arround'><div style='display:flex; 
+        //  flex-direction:column'><strong style='font-size:30px'box-shadow:rgba(100, 100, 111, 0.2)0px 7px 29px 0px'> <span style='text-align:center;
+        //  font-size:18px'><b>".$this." 
+        //  <br>
+        //  </strong><span style='font-size:20px'>".$this->pays." - ".$this->ageJoueur()." ans <br><br></span></div><div style='display:flex;
+        //  flex-direction:column'>";
+        echo "<div style='color:white; 
+        background-color:#74c55c;
+         margin:0; width:350px;
+          height:360px;
+           border-radius:10px;
+            display:flex;
+             flex-direction: column;
+              justify-content: space-around;
+               box-shadow:rgba(100, 100, 111, 0.2)0px 7px 29px 0px'> <span style='text-align:center;
+                font-size:18px'><b>$this <br> ".$this-> pays. " - " .$this->ageJoueur(). " ans" ." </b></span><br><span style='font-size:14px;
+                 text-align:center'>";
+
+         
         foreach($this->carrieres as $carriere)
 
         {
-            echo "<span style='display:flex; flex-direction:column; gap:5px'>".$this->getequipe()." ".$carriere."<br>";
+            echo "<span style='font-size:20px'><br> ".$carriere->getequipe()." <br>";
         }
         echo "</span></span></div><br>";
     }
