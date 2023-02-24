@@ -94,7 +94,7 @@ class Joueur
         foreach($this->carrieres as $carriere)
 
         {
-            echo "<span style='font-size:20px'><br> $carriere-> getequipe.<br></span>";
+            echo "<span style='display:flex; flex-direction:column; gap:5px'>".$this->getequipe()." ".$carriere."<br>";
         }
         echo "</span></span></div><br>";
     }

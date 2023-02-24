@@ -21,17 +21,10 @@ public function getjoueur ()
 {
     return $this -> joueur;
 }
-public function setjoueur()
-{
-    $this->joueur;
-}
+
 public function getequipe ()
 {
     return $this -> equipe;
-}
-public function setequipe()
-{
-    $this->equipe ;
 }
 
 public function getanneeDebut ()

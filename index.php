@@ -53,11 +53,12 @@ $FabioREAL = new Carriere ( $FABIO, $REAL, 2006);
 
 
 // Affichages Carte Pays: 
+// var_dump($Espagne);
 
 echo "<section style='display:flex; flex-wrap: wrap; gap:100px; justify-content: center'>";
-$Espagne -> infoPays();
-$France -> infoPays();
-$Italie -> infoPays();
+// $Espagne -> infoPays();
+// $France -> infoPays();
+// $Italie -> infoPays();
 echo "</section> <br> <br> <br> <br> <br> <br> <br> <br";
 
 
