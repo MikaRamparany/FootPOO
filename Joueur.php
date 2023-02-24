@@ -88,12 +88,15 @@ class Joueur
     }
     public function afficherInfosJoueur ()
     {
-        echo "<div style='background-color:lightgreen;color:white;width:360px;height:360px;padding:40px;display:flex;flex-direction:column;justify-content:space-between'><div style='display:flex;flex-direction:column'><strong style='font-size:30px'>".$this."</strong><span style='font-size:20px'>".$this->pays." - ".$this->ageJoueur()." ans</span></div><div style='display:flex;flex-direction:column'>";
+    
+        echo "<div style='background-color:#74c55c
+        ;color:white;width:360px;height:360px;padding:40px;display:flex;flex-direction:column;justify-content:space-between'><div style='display:flex;flex-direction:column'><strong style='font-size:30px'>".$this."</strong><span style='font-size:20px'>".$this->pays." - ".$this->ageJoueur()." ans</span></div><div style='display:flex;flex-direction:column'>";
         foreach($this->carrieres as $carriere)
 
         {
-            echo "<span style='font-size:15px'>".$carriere->get_equipe()." ( ".$carriere." )</span>";
+            echo "<span style='font-size:20px'><br> $carriere-> getequipe.<br></span>";
         }
+        echo "</span></span></div><br>";
     }
 
     public function __toString()

@@ -29,12 +29,12 @@ class pays
 
     public function infoPays ()
     {
-        echo "<div style='background-color:lightcoral;color:white;width:360px;height:360px;padding:40px;display:flex;flex-direction:column;justify-content:space-between'><strong style='font-size:30px'>$this</strong><div style='display:flex;flex-direction:column'>";
+        echo "<div style='color:white; background-color:#c06464; margin:0; width:250px; height:250px; border-radius:5px; display:flex; flex-direction: column; justify-content: space-around; box-shadow:rgba(100, 100, 111, 0.2)0px 7px 29px 0px'> <span style='text-align:center; font-size:18px'><b>$this</b></span><br><span style='font-size:14px; text-align:center'>";
         foreach($this->equipes as $equipe)
         {
-            echo "<span style='font-size:15px'>$equipe</span>";
+            echo "<span style='font-size:20px'><br> $equipe <br></span>";
         }
-        echo "</div><div style='    display:flex;flex-direction:column'>";
+        echo "</span></span></div><br>";
 
     }
     public function __toString()

@@ -52,6 +52,26 @@ $FabioJUVE = new Carriere ( $FABIO, $JUVE, 2004);
 $FabioREAL = new Carriere ( $FABIO, $REAL, 2006);
 
 
-// Affichages : 
+// Affichages Carte Pays: 
+
+echo "<section style='display:flex; flex-wrap: wrap; gap:100px; justify-content: center'>";
+$Espagne -> infoPays();
+$France -> infoPays();
+$Italie -> infoPays();
+echo "</section> <br> <br> <br> <br> <br> <br> <br> <br";
 
 
+//affichages carte Equipes: 
+echo "<section style='display:flex; flex-wrap: wrap; gap:100px; justify-content: center'>";
+
+// $OM -> infoEquipe();
+
+echo " </section> <br> <br> <br> <br> <br> <br";
+
+
+//affichages carte Joueur : 
+
+echo "<section style='display:flex; flex-wrap: wrap; gap:100px; justify-content: center'>";
+$POGBA -> afficherInfosJoueur ();
+
+echo " </section> <br> <br> <br> <br> <br> <br";
