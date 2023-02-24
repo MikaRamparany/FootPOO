@@ -1,3 +1,16 @@
+<head>
+    <meta charset="UTF-8">
+    <title> POO HOTEL </title>
+    <link rel="stylesheet" href="style.css" />
+    <style type="text/css">
+       
+            
+        
+    </style>
+</head>
+
+
+
 <?php
 
 spl_autoload_register(function ($class_name) {
@@ -69,6 +82,8 @@ $MANU -> infoEquipe();
 $REAL -> infoEquipe();
 $JUVE -> infoEquipe();
 echo " </section> <br> <br> <br> <br> <br> <br> <br> <br>";
+
+
 
 
 //affichages carte Joueur : 
