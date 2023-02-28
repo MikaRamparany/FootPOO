@@ -1,6 +1,6 @@
 <head>
     <meta charset="UTF-8">
-    <title> POO HOTEL </title>
+    <title> POO FOOTBALL </title>
     <link rel="stylesheet" href="style.css" />
     <style type="text/css">
        
